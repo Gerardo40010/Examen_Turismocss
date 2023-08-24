@@ -1,0 +1,173 @@
+*{
+    padding: 1;
+    margin: 1;
+}
+header{
+    background-color: rgb(251, 251, 251);
+    margin:auto;
+    padding: auto;
+}
+nav{
+    background-color: rgb(9, 41, 165);
+font-size: 30px;
+
+}
+nav a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    display: inline;
+    margin: 0 10px;
+    font-size: 22px;
+}
+.link{
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+
+}
+.link li{
+padding: 0 15px;
+
+}
+.link li:hover{
+transform:scale(1,1);
+}
+.link a{
+    padding: 0 15px;
+    color: rgba(255, 255, 255, 0.81);
+    }
+    .link a:hover{
+    transform:scale(1,1);
+    color: rgb(255, 255, 255);
+    }
+    .fondoprin{
+        position:relative;
+        top:0 ;
+        
+    }
+    .TextoContenido{
+        font-size: 17px;
+        text-align: center;
+    }
+    .VisitaNo{
+        text-align: center;
+    }
+    .Comentario{
+        background-color: rgba(255, 255, 255, 0.932);
+    }
+    .Ayuda{
+        background-color:  rgba(255, 255, 255, 0.858);
+    }
+    .Comenta{
+        background-color: rgba(254, 254, 254, 0.975);
+    }
+    footer {
+        background-color: rgba(9, 40, 165, 0.924);
+        color: white;
+        text-align: center;
+        padding: 1rem;
+      }
+    /*  .ActualTi{
+        text-align: center;
+        font-size: 27px;
+      }
+      .img1Ac{
+        width: 30%;
+        margin-top: 0%;
+        margin-left: 35%;
+      }
+      .sub1Ac{
+        color:rgb(2, 188, 188);
+        text-align: center;
+      }
+    .txt1ac{
+        text-align: center;
+        padding: auto;
+
+     }*/
+     .bodAc h1{
+        color: rgba(58, 248, 185, 0.661);
+        text-align: center ;
+     }
+     .bodAc p{
+        text-align: center;
+        display: block;
+        width: 25%;
+        margin-left: 38%;
+     }
+     .bodAc H2{
+        text-align: center;
+        color: rgb(2, 188, 188);
+     }
+     .bodAc img{
+        width: 30%;
+        margin-top: 0%;
+        margin-left: 35%;
+     }
+     .izAc{
+        position: absolute;
+        width: 30%;
+        left: -34%;
+        top: 65%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+     }
+     .derAc{
+        position: absolute;
+        width: 30%;
+        right: 0%;
+        top: 65%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+     }
+     .bodAc{
+        background-color: rgba(179, 179, 179, 0.699);
+     }
+    .bodBlog{
+
+    }
+    .bodBlog h1{
+        text-align: center;
+    }
+    .blogh21{
+        text-align: 8%;
+        color: rgb(2, 188, 188);
+        width: 27%;
+        margin-left: 8%;
+    }
+    .blogp2{
+        text-align: center;
+        margin-top: 1%;
+        width: 25%;
+        margin-left: 8%;
+    }
+    .imgblog1{
+        display: flex;
+        width:25%;
+        margin-left: 8%;
+
+    }
+    .imgblog2{
+        display:flex;
+        width:28%;
+        margin-left: 39%;
+margin-top: -37%;
+    }
+    .blogh2{
+        position: absolute;
+        color:  rgb(2, 188, 188);
+        text-align: 39%;
+        display: block;
+        width: 25%;
+        margin-left: 39%;
+    }
+    .blogp{
+        text-align: 39%;
+
+        width: 25%;
+        margin-left: 39%;
+        margin-top:7% ;
+    }
